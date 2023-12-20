@@ -12,8 +12,10 @@ class MyDocument extends Document {
       <Html>
         <Head>
         <link rel="shortcut icon" href="/favicon.ico"/>
+        <script src="https://terminal.jup.ag/main-v1.js" data-preload />
         </Head>
         <body>
+        <div id="integrated-terminal"></div>
           <Main />
           <NextScript />
         </body>
